@@ -25,12 +25,13 @@ details on `ua` itself.
 Updating the data
 =================
 
-First you need bindata
 ```bash
+# Make sure you have go-bindata
 go get -u github.com/jteeuwen/go-bindata/...
-```
 
-Then
-```bash
+# Then generate the new data file
 go generate
+
+# And make sure you run the tests. It will validate all the regexes
+go test
 ```

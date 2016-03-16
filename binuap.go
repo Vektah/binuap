@@ -1,4 +1,5 @@
-//go:generate go-bindata -o data/data.go -pkg data -prefix ../../ua-parser/uap-go/uap-core ../../ua-parser/uap-go/uap-core/regexes.yaml
+//go:generate wget https://raw.githubusercontent.com/ua-parser/uap-core/master/regexes.yaml
+//go:generate go-bindata -o data/data.go -pkg data regexes.yaml
 package binuap
 
 import (
