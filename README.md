@@ -8,7 +8,7 @@ the runtime dependency on regexes.yaml.
 
 Usage
 =====
-```
+```go
 import "github.com/vektah/binuap"
 
 func main() {
@@ -26,11 +26,11 @@ Updating the data
 =================
 
 First you need bindata
-```
+```bash
 go get -u github.com/jteeuwen/go-bindata/...
 ```
 
 Then
-```
+```bash
 go generate
 ```
