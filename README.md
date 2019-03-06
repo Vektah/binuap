@@ -1,3 +1,5 @@
+ARCHIVED: https://github.com/ua-parser/uap-core now does this by default.
+
 binuap
 ======
 
